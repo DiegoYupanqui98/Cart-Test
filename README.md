@@ -99,7 +99,6 @@ Your goal is to calculate the subtotal price, but let's approach it gradually. L
 
 ```javascript
 // js/index.js
-
 window.addEventListener('load', () => {
   const calculatePricesBtn = document.getElementById('calculate');
   calculatePricesBtn.addEventListener('click', calculateAll);
